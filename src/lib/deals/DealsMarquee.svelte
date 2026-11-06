@@ -143,7 +143,7 @@
 			display: inline-flex;
 		}
 		.track {
-			animation: deals-marquee 60s linear infinite;
+			animation: deals-marquee 50s linear infinite;
 		}
 		.marquee:focus-within .track,
 		.deals-strip:has(.pause :checked) .track {
@@ -151,7 +151,7 @@
 		}
 		@container (max-width: 720px) {
 			.track {
-				animation-duration: 45s;
+				animation-duration: 38s;
 			}
 		}
 		@media (hover: hover) and (pointer: fine) {

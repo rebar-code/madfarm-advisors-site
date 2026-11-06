@@ -46,6 +46,20 @@ export type Deal = {
 
 export const deals: Deal[] = [
 	{
+		id: 'gc-contracting-us4-capital',
+		seller: {
+			kind: 'logo',
+			name: 'G & C Contracting Co. Inc.',
+			logo: gcContracting,
+			displayWidth: 129
+		},
+		buyer: { kind: 'logo', name: 'US4 Capital', logo: us4Capital, displayWidth: 170, tall: true },
+		relation: 'acquired by',
+		role: 'Exclusive Sell-Side Advisor',
+		closed: null, // date unknown
+		closedSource: null
+	},
+	{
 		id: 'innovae-imeg',
 		seller: { kind: 'logo', name: 'Innovae', logo: innovae, displayWidth: 136 },
 		buyer: { kind: 'logo', name: 'IMEG', logo: imeg, displayWidth: 170 },
@@ -117,20 +131,6 @@ export const deals: Deal[] = [
 			tall: true
 		},
 		buyer: { kind: 'wordmark', name: 'tKW Capital' },
-		relation: 'acquired by',
-		role: 'Exclusive Sell-Side Advisor',
-		closed: null, // date unknown
-		closedSource: null
-	},
-	{
-		id: 'gc-contracting-us4-capital',
-		seller: {
-			kind: 'logo',
-			name: 'G & C Contracting Co. Inc.',
-			logo: gcContracting,
-			displayWidth: 129
-		},
-		buyer: { kind: 'logo', name: 'US4 Capital', logo: us4Capital, displayWidth: 170, tall: true },
 		relation: 'acquired by',
 		role: 'Exclusive Sell-Side Advisor',
 		closed: null, // date unknown
